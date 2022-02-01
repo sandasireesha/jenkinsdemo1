@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.sr.ContineousTesting.NewTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.sr.ContineousTesting.NewTest">
+        <methods>
+          <include name="logout"/>
+          <include name="closeApplication"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.sr.ContineousTesting.NewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.sr.ContineousTesting.NewTest] -->
